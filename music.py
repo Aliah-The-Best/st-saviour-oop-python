@@ -11,15 +11,20 @@ class Music:
     
 
 if __name__ == '__main__':
-    circles = Music('Circles', 'Pierce the Veil', 2.1, True)
+    circles = Music('Circles', 'Pierce the Veil', 3.44, True)
     print(circles.listen())
 
-    Keep_Away = Music ('Keep_Away', 'Pierce the Veil', 4.50 )
+    Keep_Away = Music ('Keep_Away', 'Pierce the Veil', 4.50, True)
+    print(Keep_Away.listen())
 
-    Lucky = Music ('Lucky', 'Radiohead', 3.09)
+    Lucky = Music ('Lucky', 'Radiohead', 3.09, True)
+    print(Lucky.listen())
 
-    Enjoy_The_Silence = Music ('Enjoy_The_Silence', 'Depeche Mode', 4.15 )
+    Enjoy_The_Silence = Music ('Enjoy_The_Silence', 'Depeche Mode', 4.15, True)
+    print(Enjoy_The_Silence.listen())
 
-    ghost_girl = Music ('ghost_girl', 'lil peep', 3.06)
+    ghost_girl = Music ('ghost_girl', 'lil peep', 3.06, True)
+    print(ghost_girl.listen())
 
-    star_shopping = Music ('star_shopping', 'lil peep', 2.22)
+    star_shopping = Music ('star_shopping', 'lil peep', 2.22, True)
+    print(star_shopping.listen())
